@@ -3,6 +3,7 @@ require 'identifier/uuid/controls'
 
 require 'registration_view_data/controls/id'
 require 'registration_view_data/controls/time'
+require 'registration_view_data/controls/version'
 
 require 'registration_view_data/controls/events/email_rejected'
 require 'registration_view_data/controls/events/registered'
