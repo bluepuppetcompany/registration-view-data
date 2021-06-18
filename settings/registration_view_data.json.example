@@ -1,0 +1,32 @@
+{
+  "registration_view_data": {
+    "entity_message_store": {
+      "dbname": "message_store",
+      "host": "localhost",
+      "hostaddr": "127.0.0.1",
+      "port": 5432,
+      "user": "message_store"
+    },
+    "view_data_message_store": {
+      "dbname": "message_store",
+      "host": "localhost",
+      "hostaddr": "127.0.0.1",
+      "port": 5433,
+      "user": "message_store"
+    },
+    "view_data": {
+      "dbname": "view_data",
+      "host": "localhost",
+      "hostaddr": "127.0.0.1",
+      "port": 5433,
+      "user": "view_data",
+      "password": null,
+      "connectTimeout": null,
+      "options": null,
+      "sslmode": null,
+      "krbsrvname": null,
+      "gsslib": null,
+      "service": null
+    }
+  }
+}

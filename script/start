@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative '../init'
+
+require 'component_host'
+
+ComponentHost.start('registration-view-data') do |host|
+  registration_view_data-initiator = RegistrationViewData::Start.build
+  host.register(registration_view_data-initiator)
+end
