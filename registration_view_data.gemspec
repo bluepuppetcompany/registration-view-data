@@ -17,6 +17,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'eventide-postgres'
   spec.add_runtime_dependency 'view_data-postgres'
 
+  spec.add_runtime_dependency 'evt-telemetry'
+
   spec.add_runtime_dependency 'registration-client'
 
   spec.add_development_dependency 'test_bench'
