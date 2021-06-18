@@ -19,3 +19,7 @@ require 'registration_view_data/projection'
 require 'registration_view_data/store'
 
 require 'registration_view_data/handlers/registration/events'
+
+require 'registration_view_data/consumers/registration/events'
+
+require 'registration_view_data/start'
